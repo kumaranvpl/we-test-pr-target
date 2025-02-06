@@ -3,6 +3,7 @@ on:
   push:
   pull_request:
     types: [opened, synchronize]
+
 jobs:
   demo:
     runs-on: ubuntu-latest
